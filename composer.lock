@@ -1876,13 +1876,16 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/maxi032/LaravelAdminPackage",
-                "reference": "2dc53a9cdbda328fa0f6275a896ffb7016d2e5cb"
+                "reference": "3b556d17fcb833e6b50a2ffee72bac519e6e938d"
             },
             "require": {
                 "illuminate/database": "^9.0|^10.0",
                 "illuminate/support": "^9.0|^10.0",
                 "laravel/ui": "^4.2",
                 "php": "^8.1"
+            },
+            "require-dev": {
+                "barryvdh/laravel-ide-helper": "2.13.x-dev"
             },
             "type": "library",
             "extra": {
@@ -9154,5 +9157,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
